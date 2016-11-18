@@ -31,6 +31,7 @@ public class LoginActivity extends BaseActivity implements MessageHelp.OnMsgServ
     private String   mLginName;
     private MessageHelp mMsgHelp = new MessageHelp();
     private LoginManager mLoginManager;
+
     private String  getLoginError(int errorCode){
         switch (errorCode){
             case ErrorCode.E_CONNECT_LOGIN_SERVER_FAILED:
