@@ -1,14 +1,6 @@
 [
     {
-        "merged": "/Users/adam/Desktop/Bdqnfacode-/library/build/intermediates/res/merged/androidTest/debug/layout-v11/abc_screen_content_include.xml",
-        "source": "/Users/adam/Desktop/Bdqnfacode-/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/layout-v11/abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/Users/adam/Desktop/Bdqnfacode-/C:\\sweet-alert-dialog-master\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v11\\abc_screen_content_include.xml",
-        "source": "/Users/adam/Desktop/Bdqnfacode-/C:\\sweet-alert-dialog-master\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout-v11\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/Users/adam/Desktop/Bdqnfacode-/E:\\Bdqnfacode\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v11\\abc_screen_content_include.xml",
-        "source": "/Users/adam/Desktop/Bdqnfacode-/E:\\Bdqnfacode\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\layout-v11\\abc_screen_content_include.xml"
+        "merged": "/Users/adam/Desktop/Bdqnfacode2/library/build/intermediates/res/merged/androidTest/debug/layout-v11/abc_screen_content_include.xml",
+        "source": "/Users/adam/Desktop/Bdqnfacode2/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/layout-v11/abc_screen_content_include.xml"
     }
 ]

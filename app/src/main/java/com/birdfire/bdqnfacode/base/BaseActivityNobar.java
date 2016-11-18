@@ -2,6 +2,7 @@ package com.birdfire.bdqnfacode.base;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +16,8 @@ import com.birdfire.bdqnfacode.R;
 import com.birdfire.bdqnfacode.ui.dialog.DialogControl;
 import com.birdfire.bdqnfacode.util.DialogHelp;
 
+import cn.pedant.SweetAlert.SweetAlertDialog;
+
 /**
  * Created by C on 2016/11/17.
  */
@@ -24,12 +27,16 @@ public class BaseActivityNobar extends Activity implements
     protected ViewGroup mtopBar;
     protected TextView mtopTitleTxt;
     protected ImageView mtopRightBtn;
+    protected SweetAlertDialog mSweetDlg;
     private boolean _isVisible;
     private ProgressDialog _waitDialog;
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        if(mSweetDlg != null){
+            mSweetDlg.dismiss();
+        }
         AppManager.getAppmanager().finishActivity(this);
     }
 
@@ -45,6 +52,10 @@ public class BaseActivityNobar extends Activity implements
         mtopTitleTxt.setVisibility(View.GONE);
         mtopRightBtn.setVisibility(View.GONE);
         _isVisible = true;
+        mSweetDlg = new SweetAlertDialog(this,SweetAlertDialog.PROGRESS_TYPE);
+        mSweetDlg.setTitleText(getString(R.string.loading));
+        mSweetDlg.getProgressHelper().setBarColor(Color.parseColor("#A5DC86"));
+        mSweetDlg.setCancelable(false);
         AppManager.getAppmanager().addActivity(this);
     }
 

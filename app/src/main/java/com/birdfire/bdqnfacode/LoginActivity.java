@@ -3,6 +3,7 @@ package com.birdfire.bdqnfacode;
 import android.app.Activity;
 import android.content.BroadcastReceiver;
 import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
@@ -36,6 +37,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 
+import cn.pedant.SweetAlert.SweetAlertDialog;
 import cz.msebera.android.httpclient.Header;
 import cz.msebera.android.httpclient.entity.StringEntity;
 
@@ -83,6 +85,7 @@ public class LoginActivity extends BaseActivityNobar implements MessageHelp.OnMs
         @Override
         public void onFailure(int i, Header[] headers, String s, Throwable throwable) {
             mlogger.i("onFailure");
+            mSweetDlg.hide();
         }
 
         @Override
@@ -93,7 +96,8 @@ public class LoginActivity extends BaseActivityNobar implements MessageHelp.OnMs
                 mlogger.i(h.getName());
 
             }
-            hideWaitDialog();
+            mSweetDlg.hide();
+            //hideWaitDialog();
             mlogger.i(s);
         }
     };
@@ -107,6 +111,7 @@ public class LoginActivity extends BaseActivityNobar implements MessageHelp.OnMs
        // }
 
         setContentView(R.layout.activity_login);
+
         mNameEdt = (EditText) findViewById(R.id.name);
         mPwdEdt = (EditText) findViewById(R.id.password);
         mPwdEdt.setOnEditorActionListener(new TextView.OnEditorActionListener() {
@@ -120,7 +125,9 @@ public class LoginActivity extends BaseActivityNobar implements MessageHelp.OnMs
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
         goLogin();
-        showWaitDialog("waiting");
+        mSweetDlg.dismiss();
+
+        //showWaitDialog("waiting");
     }
 
     public void goLogin() {
