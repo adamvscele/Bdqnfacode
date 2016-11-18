@@ -7,5 +7,7 @@ import com.birdfire.bdqnfacode.base.BaseApplication;
  */
 public class AppContext extends BaseApplication{
 
+    private void  print()
+    {}
 
 }
