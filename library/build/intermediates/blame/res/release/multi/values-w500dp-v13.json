@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Bdqnfacode\\library\\build\\intermediates\\res\\merged\\release\\values-w500dp-v13\\values-w500dp-v13.xml",
+        "outputFile": "/Users/adam/Desktop/Bdqnfacode-/library/build/intermediates/res/merged/release/values-w500dp-v13/values-w500dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 105
                 },
                 "from": {
-                    "file": "E:\\Bdqnfacode\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\values-w500dp\\values.xml",
+                    "file": "/Users/adam/Desktop/Bdqnfacode-/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values-w500dp/values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "C:\\sweet-alert-dialog-master\\library\\build\\intermediates\\res\\merged\\release\\values-w500dp-v13\\values-w500dp-v13.xml",
+        "outputFile": "/Users/adam/Desktop/Bdqnfacode-/E:\\Bdqnfacode\\library\\build\\intermediates\\res\\merged\\release\\values-w500dp-v13\\values-w500dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,31 @@
                     "endOffset": 105
                 },
                 "from": {
-                    "file": "C:\\sweet-alert-dialog-master\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\values-w500dp\\values.xml",
+                    "file": "/Users/adam/Desktop/Bdqnfacode-/E:\\Bdqnfacode\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\values-w500dp\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 54,
+                        "endOffset": 106
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/adam/Desktop/Bdqnfacode-/C:\\sweet-alert-dialog-master\\library\\build\\intermediates\\res\\merged\\release\\values-w500dp-v13\\values-w500dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 54,
+                    "endOffset": 105
+                },
+                "from": {
+                    "file": "/Users/adam/Desktop/Bdqnfacode-/C:\\sweet-alert-dialog-master\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\values-w500dp\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,

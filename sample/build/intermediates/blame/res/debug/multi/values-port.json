@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Bdqnfacode\\sample\\build\\intermediates\\res\\merged\\debug\\values-port\\values-port.xml",
+        "outputFile": "/Users/adam/Desktop/Bdqnfacode-/E:\\Bdqnfacode\\sample\\build\\intermediates\\res\\merged\\debug\\values-port\\values-port.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "E:\\Bdqnfacode\\sample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\values-port\\values.xml",
+                    "file": "/Users/adam/Desktop/Bdqnfacode-/E:\\Bdqnfacode\\sample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\values-port\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "C:\\sweet-alert-dialog-master\\sample\\build\\intermediates\\res\\merged\\debug\\values-port\\values-port.xml",
+        "outputFile": "/Users/adam/Desktop/Bdqnfacode-/C:\\sweet-alert-dialog-master\\sample\\build\\intermediates\\res\\merged\\debug\\values-port\\values-port.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,31 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "C:\\sweet-alert-dialog-master\\sample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\values-port\\values.xml",
+                    "file": "/Users/adam/Desktop/Bdqnfacode-/C:\\sweet-alert-dialog-master\\sample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.0\\res\\values-port\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 55,
+                        "endOffset": 107
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/adam/Desktop/Bdqnfacode-/sample/build/intermediates/res/merged/debug/values-port/values-port.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 55,
+                    "endOffset": 106
+                },
+                "from": {
+                    "file": "/Users/adam/Desktop/Bdqnfacode-/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/res/values-port/values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
