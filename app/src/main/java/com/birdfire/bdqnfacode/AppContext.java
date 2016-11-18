@@ -7,6 +7,7 @@ import com.birdfire.bdqnfacode.base.BaseApplication;
  */
 public class AppContext extends BaseApplication{
 
+
     public void Hello(){
         System.out.println("hellow");
 
