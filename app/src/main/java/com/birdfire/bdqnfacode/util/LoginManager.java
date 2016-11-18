@@ -19,7 +19,7 @@ public class LoginManager extends MManager{
     }
 
 
-    public void login(String name,String pws){
+    public void login(String name,String pwd){
 
         mLoginName = name;
         mLoginPwd =pwd;

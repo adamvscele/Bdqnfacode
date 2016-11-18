@@ -27,7 +27,7 @@ public class AppStart extends Activity {
 
     private void toMainActivity()
     {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
         finish();
     }
